@@ -8,6 +8,27 @@ const QRPortalWeb = require('@bot-whatsapp/portal')
 const WsProvider = require('@bot-whatsapp/provider/baileys')
 const DBProvider = require('@bot-whatsapp/database/mock')
 
+const FlujoBebidas = addKeyword(['Bebidas','Bebida'])
+.addAnswer('Elige la bebida que deseas comprar:',
+{buttons:[
+    {
+        body: '*Switch* ($3,50)'
+    }
+]}.addAnswer('.',{media:'C://Users//hsmc1//Downloads//switch'})
+/*    {
+        body: '*Zhumir Naranjilla* ($5,75)'
+    },
+    {
+        body: '*Monster* ($3,50)'
+    },
+    {
+        body: '*Red Bull* ($2,50)'
+    },
+    {
+        body: '*Café Cafelixc ($5,00)*'
+    }*/
+)
+
 const FlujoComprar = addKeyword(['Comprar','Compras'])
 .addAnswer('¿En qué categoría se encuentra tu compra?',
 {buttons:[
@@ -26,11 +47,11 @@ const FlujoComprar = addKeyword(['Comprar','Compras'])
     {
         body: 'Servicios'
     }
-]})
+]},null,[FlujoBebidas])
 
 const FlujoPrincipal = addKeyword(['hola','oe','buenas'])
 .addAnswer('Bienvenido a *Yachay MarketPlace* la tienda digital más grande de Yachay')
-.addAnswer('¿Qué deseas hacer?:',
+.addAnswer('¿Qué deseas hacer?',
 {buttons: [
 {
     body: 'Comprar'
