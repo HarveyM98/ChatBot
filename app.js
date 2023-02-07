@@ -8,8 +8,9 @@ const QRPortalWeb = require('@bot-whatsapp/portal')
 const WsProvider = require('@bot-whatsapp/provider/baileys')
 const DBProvider = require('@bot-whatsapp/database/mock')
 
-const FlujoPrincipal = addKeyword('buenasxdxd')
-.addAnswer(['Bienvenido oe', 'Hoy tenemos ofertas' ])
+const FlujoPrincipal = addKeyword(['hola','oe','buenas'])
+.addAnswer('Bienvenido')
+.addAnswer(['Hoy tenemos las siguientes ofertas:', '- Switch ($3,50)','- Zhumir Naranjilla ($5,75)'])
 /*.addAnswer('Cual es tu email?',{capture:true},(ctx,{fallBack}) => {
 
     if(!ctx.body.includes('@')){
