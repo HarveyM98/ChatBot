@@ -9,13 +9,15 @@ const WsProvider = require('@bot-whatsapp/provider/baileys')
 const DBProvider = require('@bot-whatsapp/database/mock')
 
 const FlujoBebidas = addKeyword(['Bebidas','Bebida'])
-.addAnswer('Elige la bebida que deseas comprar:',
+.addAnswer('Elige la bebida que deseas comprar:')
+.addAnswer(' ',{media:'https://licoreschullavida.com/wp-content/uploads/2020/11/switch-bongo-bongo.jpg'},
 {buttons:[
     {
         body: 'Switch ($3,50)'
     }
 ]})
-.addAnswer('Imagen del producto:',{media:'https://licoreschullavida.com/wp-content/uploads/2020/11/switch-bongo-bongo.jpg'})
+
+
 /*    {
         body: '*Zhumir Naranjilla* ($5,75)'
     },
