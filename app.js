@@ -14,7 +14,7 @@ const FlujoBebidas = addKeyword(['Bebidas','Bebida'])
     {
         body: '*Switch* ($3,50)'
     }
-]}.addAnswer('.',{media:'C://Users//hsmc1//Downloads//switch'})
+]}).addAnswer('',{media:'C://Users//hsmc1//Downloads//switch'})
 /*    {
         body: '*Zhumir Naranjilla* ($5,75)'
     },
@@ -27,7 +27,6 @@ const FlujoBebidas = addKeyword(['Bebidas','Bebida'])
     {
         body: '*Café Cafelixc ($5,00)*'
     }*/
-)
 
 const FlujoComprar = addKeyword(['Comprar','Compras'])
 .addAnswer('¿En qué categoría se encuentra tu compra?',
