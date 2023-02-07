@@ -8,15 +8,35 @@ const QRPortalWeb = require('@bot-whatsapp/portal')
 const WsProvider = require('@bot-whatsapp/provider/baileys')
 const DBProvider = require('@bot-whatsapp/database/mock')
 
+const FlujoComprar = addKeyword(['Comprar','Compras'])
+.addAnswer('¿En qué categoría se encuentra tu compra?',
+{buttons:[
+    {
+        body: 'Bebidas'
+    },
+    {
+        body: 'Comida'
+    },
+    {
+        body: 'Dulces'
+    },
+    {
+        body: 'Artículos'
+    },
+    {
+        body: 'Servicios'
+    }
+]})
+
 const FlujoPrincipal = addKeyword(['hola','oe','buenas'])
-.addAnswer('Bienvenido a Yachay MarketPlace la tienda digital mas grande de Yachay')
-.addAnswer('Que deseas hacer:',
+.addAnswer('Bienvenido a *Yachay MarketPlace* la tienda digital más grande de Yachay')
+.addAnswer('¿Qué deseas hacer?:',
 {buttons: [
 {
     body: 'Comprar'
 },
 {
-body:'Vender'
+    body:'Vender'
 }
 ]
 })
