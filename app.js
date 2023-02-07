@@ -14,7 +14,8 @@ const FlujoBebidas = addKeyword(['Bebidas','Bebida'])
     {
         body: 'Switch ($3,50)'
     }
-]}).addAnswer('',{media:'https://licoreschullavida.com/wp-content/uploads/2020/11/switch-bongo-bongo.jpg'})
+]})
+.addAnswer('Imagen del producto:',{media:'https://licoreschullavida.com/wp-content/uploads/2020/11/switch-bongo-bongo.jpg'})
 /*    {
         body: '*Zhumir Naranjilla* ($5,75)'
     },
