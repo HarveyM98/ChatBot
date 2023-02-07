@@ -10,11 +10,18 @@ const DBProvider = require('@bot-whatsapp/database/mock')
 
 const FlujoBebidas = addKeyword(['Bebidas','Bebida'])
 .addAnswer('Elige la bebida que deseas comprar:')
-.addAnswer([' ',{media:'https://licoreschullavida.com/wp-content/uploads/2020/11/switch-bongo-bongo.jpg'},' ',{buttons:[
+.addAnswer(' ',{media:'https://licoreschullavida.com/wp-content/uploads/2020/11/switch-bongo-bongo.jpg'})
+.addAnswer(' ',{buttons:[
     {
         body: 'Switch ($3,50)'
     }
-]}])
+]})
+.addAnswer(' ',{media:'https://www.supermercadosantamaria.com/documents/10180/10504/100757_M.jpg'})
+.addAnswer(' ',{buttons:[
+    {
+        body: 'Zhumir Naranjilla ($5,75)'
+    }
+]})
 
 
 /*    {
