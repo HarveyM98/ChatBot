@@ -12,9 +12,9 @@ const FlujoBebidas = addKeyword(['Bebidas','Bebida'])
 .addAnswer('Elige la bebida que deseas comprar:',
 {buttons:[
     {
-        body: '*Switch* ($3,50)'
+        body: 'Switch ($3,50)'
     }
-]}).addAnswer('',{media:'C://Users//hsmc1//Downloads//switch'})
+]}).addAnswer('',{media:'https://licoreschullavida.com/wp-content/uploads/2020/11/switch-bongo-bongo.jpg'})
 /*    {
         body: '*Zhumir Naranjilla* ($5,75)'
     },

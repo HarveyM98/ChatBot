@@ -2,13 +2,132 @@
   key: {
     remoteJid: '593979006978@s.whatsapp.net',
     fromMe: false,
-    id: '3A9DF5B8FEBE815BF4CB',
+    id: '3AD87164723A546B8D23',
     participant: undefined
   },
-  messageTimestamp: 1675756412,
+  messageTimestamp: 1675756764,
   pushName: 'Harvey',
   messageStubType: 2,
   messageStubParameters: [ 'No matching sessions found for message' ],
   body: undefined,
+  from: '593979006978'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '593979006978@s.whatsapp.net',
+    fromMe: false,
+    id: '3AD87164723A546B8D23',
+    participant: undefined
+  },
+  messageTimestamp: 1675756765,
+  pushName: 'Harvey',
+  messageStubType: 2,
+  messageStubParameters: [ 'No matching sessions found for message' ],
+  body: undefined,
+  from: '593979006978'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '593979006978@s.whatsapp.net',
+    fromMe: false,
+    id: '3AD87164723A546B8D23',
+    participant: undefined
+  },
+  messageTimestamp: 1675756766,
+  pushName: 'Harvey',
+  messageStubType: 2,
+  messageStubParameters: [ 'No matching sessions found for message' ],
+  body: undefined,
+  from: '593979006978'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '593979006978@s.whatsapp.net',
+    fromMe: false,
+    id: '3AD87164723A546B8D23',
+    participant: undefined
+  },
+  messageTimestamp: 1675756766,
+  pushName: 'Harvey',
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hola',
+  from: '593979006978'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '593979006978@s.whatsapp.net',
+    fromMe: false,
+    id: '3AE6A551675DA111BCB4',
+    participant: undefined
+  },
+  messageTimestamp: 1675756769,
+  pushName: 'Harvey',
+  message: Message {
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    },
+    buttonsResponseMessage: ButtonsResponseMessage {
+      selectedButtonId: 'id-btn-0',
+      selectedDisplayText: 'Comprar',
+      contextInfo: [ContextInfo],
+      type: 1
+    }
+  },
+  body: 'Comprar',
+  from: '593979006978'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '593979006978@s.whatsapp.net',
+    fromMe: false,
+    id: '3A90D052655B2C513549',
+    participant: undefined
+  },
+  messageTimestamp: 1675756772,
+  pushName: 'Harvey',
+  message: Message {
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    },
+    buttonsResponseMessage: ButtonsResponseMessage {
+      selectedButtonId: 'id-btn-0',
+      selectedDisplayText: 'Bebidas',
+      contextInfo: [ContextInfo],
+      type: 1
+    }
+  },
+  body: 'Bebidas',
+  from: '593979006978'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '593979006978@s.whatsapp.net',
+    fromMe: false,
+    id: '3AC5740969C123849325',
+    participant: undefined
+  },
+  messageTimestamp: 1675756780,
+  pushName: 'Harvey',
+  message: Message {
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    },
+    buttonsResponseMessage: ButtonsResponseMessage {
+      selectedButtonId: 'id-btn-0',
+      selectedDisplayText: '*Switch* ($3,50)',
+      contextInfo: [ContextInfo],
+      type: 1
+    }
+  },
+  body: '*Switch* ($3,50)',
   from: '593979006978'
 }
