@@ -3,7 +3,8 @@ const { createBot,
     createFlow, 
     addKeyword } = require('@bot-whatsapp/bot') 
 
-/*const QRPortalWeb = require('@bot-whatsapp/portal')*/
+const QRPortalWeb = require('@bot-whatsapp/portal')
+
 const WsProvider = require('@bot-whatsapp/provider/baileys')
 const DBProvider = require('@bot-whatsapp/database/mock')
 
@@ -18,6 +19,7 @@ const FlujoPrincipal = addKeyword(['hola','oe','buenas'])
     console.log('Mensaje entrante: ',ctx.body)
 
 })
+.addAnswer('en los siguientes minutos te envio un email')
 
 const FlujoSecundario = addKeyword('gracias')
 .addAnswer('De nada!')
