@@ -8,7 +8,7 @@ const QRPortalWeb = require('@bot-whatsapp/portal')
 const WsProvider = require('@bot-whatsapp/provider/baileys')
 const DBProvider = require('@bot-whatsapp/database/mock')
 
-const FlujoPrincipal = addKeyword(['hola','oe','buenas'])
+const FlujoPrincipal = addKeyword(['buenasxdxd'])
 .addAnswer(['Bienvenido oe', 'Hoy tenemos ofertas' ])
 .addAnswer('Cual es tu email?',{capture:true},(ctx,{fallBack}) => {
 
