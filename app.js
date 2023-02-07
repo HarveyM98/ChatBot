@@ -39,7 +39,7 @@ const FlujoPrincipal = addKeyword(['hola','oe','buenas'])
     body:'Vender'
 }
 ]
-})
+},null, [FlujoComprar])
 /*.addAnswer('Cual es tu email?',{capture:true},(ctx,{fallBack}) => {
 
     if(!ctx.body.includes('@')){
