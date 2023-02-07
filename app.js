@@ -9,8 +9,17 @@ const WsProvider = require('@bot-whatsapp/provider/baileys')
 const DBProvider = require('@bot-whatsapp/database/mock')
 
 const FlujoPrincipal = addKeyword(['hola','oe','buenas'])
-.addAnswer('Bienvenido')
-.addAnswer(['Hoy tenemos las siguientes ofertas:', '- Switch ($3,50)','- Zhumir Naranjilla ($5,75)'])
+.addAnswer('Bienvenido a Yachay MarketPlace la tienda digital mas grande de Yachay')
+.addAnswer('Que deseas hacer:',
+{buttons: [
+{
+    body: 'Comprar'
+},
+{
+body:'Vender'
+}
+]
+})
 /*.addAnswer('Cual es tu email?',{capture:true},(ctx,{fallBack}) => {
 
     if(!ctx.body.includes('@')){
