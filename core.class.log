@@ -1,0 +1,210 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '593979006978@s.whatsapp.net',
+    fromMe: false,
+    id: '3AC55411B92FC102C7F2',
+    participant: undefined
+  },
+  messageTimestamp: 1675758492,
+  pushName: 'Harvey',
+  messageStubType: 2,
+  messageStubParameters: [ 'Invalid PreKey ID' ],
+  body: undefined,
+  from: '593979006978'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '593979006978@s.whatsapp.net',
+    fromMe: false,
+    id: '3AC55411B92FC102C7F2',
+    participant: undefined
+  },
+  messageTimestamp: 1675758493,
+  pushName: 'Harvey',
+  messageStubType: 2,
+  messageStubParameters: [ 'Invalid PreKey ID' ],
+  body: undefined,
+  from: '593979006978'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '593979006978@s.whatsapp.net',
+    fromMe: false,
+    id: '3AC55411B92FC102C7F2',
+    participant: undefined
+  },
+  messageTimestamp: 1675758495,
+  pushName: 'Harvey',
+  messageStubType: 2,
+  messageStubParameters: [ 'Invalid PreKey ID' ],
+  body: undefined,
+  from: '593979006978'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '593979006978@s.whatsapp.net',
+    fromMe: false,
+    id: '3AC55411B92FC102C7F2',
+    participant: undefined
+  },
+  messageTimestamp: 1675758495,
+  pushName: 'Harvey',
+  messageStubType: 2,
+  messageStubParameters: [ 'Invalid PreKey ID' ],
+  body: undefined,
+  from: '593979006978'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '593979006978@s.whatsapp.net',
+    fromMe: false,
+    id: '3AC55411B92FC102C7F2',
+    participant: undefined
+  },
+  messageTimestamp: 1675758496,
+  pushName: 'Harvey',
+  messageStubType: 2,
+  messageStubParameters: [ 'Invalid PreKey ID' ],
+  body: undefined,
+  from: '593979006978'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '593979006978@s.whatsapp.net',
+    fromMe: false,
+    id: '3AC55411B92FC102C7F2',
+    participant: undefined
+  },
+  messageTimestamp: 1675758497,
+  pushName: 'Harvey',
+  messageStubType: 2,
+  messageStubParameters: [ 'Invalid PreKey ID' ],
+  body: undefined,
+  from: '593979006978'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '593979006978@s.whatsapp.net',
+    fromMe: false,
+    id: '3AC55411B92FC102C7F2',
+    participant: undefined
+  },
+  messageTimestamp: 1675758498,
+  pushName: 'Harvey',
+  messageStubType: 2,
+  messageStubParameters: [ 'Invalid PreKey ID' ],
+  body: undefined,
+  from: '593979006978'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '593979006978@s.whatsapp.net',
+    fromMe: false,
+    id: '3AC55411B92FC102C7F2',
+    participant: undefined
+  },
+  messageTimestamp: 1675758499,
+  pushName: 'Harvey',
+  messageStubType: 2,
+  messageStubParameters: [ 'Invalid PreKey ID' ],
+  body: undefined,
+  from: '593979006978'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '593979006978@s.whatsapp.net',
+    fromMe: false,
+    id: '3AC55411B92FC102C7F2',
+    participant: undefined
+  },
+  messageTimestamp: 1675758500,
+  pushName: 'Harvey',
+  messageStubType: 2,
+  messageStubParameters: [ 'Invalid PreKey ID' ],
+  body: undefined,
+  from: '593979006978'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '593979006978@s.whatsapp.net',
+    fromMe: false,
+    id: '3AC55411B92FC102C7F2',
+    participant: undefined
+  },
+  messageTimestamp: 1675758501,
+  pushName: 'Harvey',
+  messageStubType: 2,
+  messageStubParameters: [ 'Invalid PreKey ID' ],
+  body: undefined,
+  from: '593979006978'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '593979006978@s.whatsapp.net',
+    fromMe: false,
+    id: '3AC55411B92FC102C7F2',
+    participant: undefined
+  },
+  messageTimestamp: 1675758501,
+  pushName: 'Harvey',
+  messageStubType: 2,
+  messageStubParameters: [ 'Invalid PreKey ID' ],
+  body: undefined,
+  from: '593979006978'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '593979006978@s.whatsapp.net',
+    fromMe: false,
+    id: '3AC55411B92FC102C7F2',
+    participant: undefined
+  },
+  messageTimestamp: 1675758502,
+  pushName: 'Harvey',
+  messageStubType: 2,
+  messageStubParameters: [ 'Bad MAC' ],
+  body: undefined,
+  from: '593979006978'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '593979006978@s.whatsapp.net',
+    fromMe: false,
+    id: '3AC55411B92FC102C7F2',
+    participant: undefined
+  },
+  messageTimestamp: 1675758503,
+  pushName: 'Harvey',
+  messageStubType: 2,
+  messageStubParameters: [ 'Invalid PreKey ID' ],
+  body: undefined,
+  from: '593979006978'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '593979006978@s.whatsapp.net',
+    fromMe: false,
+    id: '3A0650D0FC88D4105898',
+    participant: undefined
+  },
+  messageTimestamp: 1675758617,
+  pushName: 'Harvey',
+  messageStubType: 2,
+  messageStubParameters: [ 'Invalid PreKey ID' ],
+  body: undefined,
+  from: '593979006978'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '593979006978@s.whatsapp.net',
+    fromMe: false,
+    id: '3A0650D0FC88D4105898',
+    participant: undefined
+  },
+  messageTimestamp: 1675758617,
+  pushName: 'Harvey',
+  messageStubType: 2,
+  messageStubParameters: [ 'Invalid PreKey ID' ],
+  body: undefined,
+  from: '593979006978'
+}
